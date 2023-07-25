@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<!-- saved from url=(0655)https://project-tnwvi6agchsp20mrprwn.framercanvas.com/s/app.2add0caf545d6b0cf8cb1bb3cfe11a7a9c0a0915/preview-next-prod-react.html?target=preview-web&mode=dark#services=%7B%22api%22%3A%22https%3A%2F%2Fapi.framer.com%22%2C%22app%22%3A%22https%3A%2F%2Fframer.com%22%2C%22canvas%22%3A%22https%3A%2F%2Fproject-tnwvi6agchsp20mrprwn.framercanvas.com%22%2C%22events%22%3A%22https%3A%2F%2Fevents.framer.com%22%2C%22login%22%3A%22https%3A%2F%2Flogin.framer.com%22%2C%22userContent%22%3A%22https%3A%2F%2Fframerusercontent.com%22%2C%22modulesCDN%22%3A%22https%3A%2F%2Fframerusercontent.com%2Fmodules%22%2C%22modulesShortLink%22%3A%22https%3A%2F%2Fframer.com%2Fm%22%7D -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="robots" content="noindex">
+        
+            <link rel="preconnect" href="https://app.framerstatic.com/">
+            <link rel="dns-prefetch" href="https://app.framerstatic.com/">
+        
+
+        <script type="importmap-shim">
+{
+    "imports": {
+        "framer": "./scripts/framer.esm.js",
+        "framer-motion": "https://app.framerstatic.com/framer-motion-esm-shim.RPQKKJR6.js",
+        "react": "./scripts/react.esm.js",
+        "react/jsx-runtime": "./scripts/react-jsx-runtime.esm.js",
+        "react-dom": "./scripts/react-dom.esm.js",
+        "react-dom/server": "./scripts/react-dom-server.esm.js"
+    }
+}
+</script>
+
+        
+        
+        
+        
+        
+            
+            <script src="./react.production.min.js(1).download"></script>
+<script src="./react-dom.production.min.js(1).download"></script>
+<script src="./react-dom-server-legacy.browser.production.min.js(1).download"></script>
+        
+        
+        
+
+        
+<script>
+    window.__previousRequire__ = window.require
+    window.__previousExports__ = window.exports
+    window.__previousProcess__ = window.process
+
+    window.require = (moduleSpecifier) => {
+        switch (moduleSpecifier) {
+            case "react":
+                return window.React
+            case "object-assign":
+                return Object.assign
+            default:
+                throw new Error("react-jsx-runtime requires unexpected module:" + moduleSpecifier)
+        }
+    }
+
+    window.__REACT_RUNTIME_JSX__ = { Fragment: undefined, jsx: undefined, jsxs: undefined, }
+    window.exports = {
+        set Fragment(value) { window.__REACT_RUNTIME_JSX__.Fragment = value; },
+        set jsx(value) { window.__REACT_RUNTIME_JSX__.jsx = value; },
+        set jsxs(value) { window.__REACT_RUNTIME_JSX__.jsxs = value; }
+    }
+    window.process = { env: { NODE_ENV: "production" } }
+</script>
+<script src="./react-jsx-runtime.production.min.js.download"></script>
+<script>
+    // Restore the globals to their prev values.
+    window.require = window.__previousRequire__
+    window.exports = window.__previousExports__
+    window.process = window.__previousProcess__
+</script>
+
+        
+        
+        
+            <link href="./preview-next.DR7XQUNK.css" rel="stylesheet">
+        
+        
+
+        <!-- Workaround for a WebKit bug: loading via URL from the stylesheet is denied if this file is loaded via file:/// -->
+        <style>
+            :root {
+                -webkit-font-smoothing: antialiased;
+            }
+
+            * {
+                -webkit-font-smoothing: inherit;
+            }
+
+            @font-face {
+                font-family: "Input Mono";
+                font-style: normal;
+                font-weight: 400;
+                src: local("Input Mono"), url("fonts/QbHJVUjy6YgY.app.ttf") format("truetype");
+            }
+
+            .framerInternalUI-componentPlaceholder,
+            .framerInternalUI-errorPlaceholder {
+                border: calc(1px * var(--framerInternalCanvas-canvasPlaceholderContentScaleFactor, 1)) dashed currentColor;
+                border-radius: calc(6px * var(--framerInternalCanvas-canvasPlaceholderContentScaleFactor, 1));
+                font-size: calc(12px * var(--framerInternalCanvas-canvasPlaceholderContentScaleFactor, 1));
+            }
+
+            /* Placeholder for loading components. */
+            .framerInternalUI-componentPlaceholder {
+                border-style: solid;
+                border-color: rgba(149, 149, 149, 0.15);
+                background-color: rgba(149, 149, 149, 0.1);
+                color: #a5a5a5;
+            }
+
+            /* Placeholder for components with errors. */
+            .framerInternalUI-errorPlaceholder {
+                border-style: solid;
+                border-color: rgba(149, 149, 149, 0.15);
+                background-color: rgba(149, 149, 149, 0.1);
+                color: #a5a5a5;
+            }
+
+            .framerInternalUI-componentPlaceholder .text,
+            .framerInternalUI-errorPlaceholder .text {
+                transition: opacity 300ms;
+            }
+
+            .framerInternalUI-componentPlaceholder .pending,
+            .framerInternalUI-errorPlaceholder .pending {
+                opacity: 0;
+            }
+        </style>
+
+        
+        
+        
+            <link href="https://app.framerstatic.com/chunk-FXZU65X7.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-ZMLT2JJO.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-HQOK6ZU2.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-A6SQ7LET.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-CKP2GXTU.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-ZAVCCCEM.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-M5JBPS3M.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-CK3XLEJS.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-H4IIIHXS.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-G6RVR2BI.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-V3SLPV6Z.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-NEN2GU72.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-LRLCEQCG.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-IEH5QJIZ.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-DRFNFFXK.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-DLNMN23R.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-7QICEHKI.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-XBQHBV7C.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-B7OOZ5ZN.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-7DPOW67T.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-A2XM7CWL.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-HWEWYXXD.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-ZT6NCF4W.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-D6XAQYT2.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-WTY3ZTSV.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-NBEFPMVE.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-VRLLGASK.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-5NN5SU4D.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-TY6T2EJF.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-GXINHILR.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-PHTSUMBS.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-LRFMZAIA.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-DSERDOJV.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-HM6PEKXQ.js" rel="modulepreload">
+        
+        
+    <style type="text/css" data-framer-css="true"></style><style type="text/css" data-framer-css="true"></style><style type="text/css" data-framer-css="true"></style><style type="text/css" data-framer-css="true"></style><style type="text/css" data-framer-css="true"></style><style type="text/css" data-framer-css="true"></style><style type="text/css" data-framer-css="true"></style></head>
+
+    <body data-framer-theme="dark">
+        <main><div style="--token-ea031006-754d-43f2-8c13-4c3806711478: #5388e1;"><div class="previewApp_p19opbdr"><div data-framer-component-type="NavigationRoot" style="display: block; flex-shrink: 0; background-color: unset; width: 100%; height: 100%; top: 0px; left: 0px; position: relative; overflow: hidden; transform: none;"><div data-framer-component-type="NavigationContainerWrapper" style="display: block; flex-shrink: 0; background-color: rgba(0, 0, 0, 0); width: 100%; height: 100%; position: absolute; transform-style: flat; z-index: 0; visibility: visible; overflow: hidden; transform: none;"><div data-framer-component-type="NavigationContainerBackdrop" data-framer-cursor="pointer" data-framer-highlight="true" style="display: block; flex-shrink: 0; background-color: rgba(0, 0, 0, 0); pointer-events: none; width: 100%; height: 100%; opacity: 1; transform: none;"></div><div data-framer-component-type="NavigationContainer" data-framer-is-current-navigation-target="false" style="display: block; flex-shrink: 0; background-color: rgba(0, 0, 0, 0); inset: 0px; opacity: 1; transform: none; transform-origin: 50% 50% 0px;"><div data-framer-component-type="NavigationContainerWrapper" style="display: block; flex-shrink: 0; background-color: rgba(0, 0, 0, 0); width: 100%; height: 100%; position: absolute; transform-style: flat; visibility: visible; overflow: hidden; transform: none;"><div data-framer-component-type="NavigationContainer" data-framer-is-current-navigation-target="true" style="display: block; flex-shrink: 0; background-color: rgba(0, 0, 0, 0); inset: 0px; opacity: 1; transform: none; z-index: 0; transform-origin: 50% 50% 0px;"><div style="width: 100%; height: 100%; opacity: 1;"><div data-framer-component-type="ComponentContainer" data-layoutid="MGo7cFc3h" data-framer-component-container="true" id="id_iADSPjJpk-container" style="display: block; flex-shrink: 0; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 1; overflow: visible; transform: none; opacity: 1;"><div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; overflow: hidden; transform: scaleX(-1);"><svg height="100%" width="100%" version="1.1" viewBox="0 -25 380 480" xmlns="http://www.w3.org/2000/svg"><g id="head" transform="translate(82.000000, 0.000000)"><g id="Head/Front/Wavy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Head" transform="translate(54.000000, 31.000000)" fill="rgb(27, 73, 101)"><path d="M8.26227388,34.4901268 C3.65436435,29.0813759 0.535634794,22.4528771 1.05677633,15.0254539 C2.55833022,-6.37502057 32.3485306,-1.66718886 38.1433414,9.13393292 C43.9381521,19.9350547 43.249578,47.3329958 35.7603014,49.2634576 C32.7735882,50.033323 26.4110012,48.1474609 19.935372,44.244306 L24,73 L0,73 L8.26227388,34.4901268 Z"></path></g><path d="M94.4090961,44.9836328 C94.1713645,43.583583 93.5903632,42.028843 93.1215639,40.7042644 C92.5171614,38.996708 91.602499,37.4571303 90.5959364,36.0061417 C88.7009022,33.2743581 86.427574,30.8074902 83.917599,28.760058 C79.3328188,25.0202318 73.4966155,22.8630853 67.7574266,23.5636213 C64.8597041,23.9172965 62.046753,25.0226169 59.6525443,26.8623756 C57.4894034,28.5246153 55.4087091,30.9715506 52.6076911,31.147366 C49.5599529,31.3385142 46.7662186,28.6484698 44.321953,26.9870819 C41.5660327,25.1141023 38.6342158,23.7493178 35.4132155,23.2188049 C30.0172962,22.3303577 24.9482191,24.1534208 21.2294392,28.5804946 C17.2721527,33.2915649 14.3955069,40.2003282 16.9942826,46.442458 C17.4773396,47.6028059 18.0987894,48.5810349 18.9906704,49.3917962 C19.8086285,50.1352639 21.0578819,50.926263 21.3895284,52.1142098 C21.7417865,53.3769463 20.6895063,55.005965 20.2814572,56.1453581 C19.6968915,57.7777841 19.2169339,59.4913033 19.3875614,61.2656423 C19.6679112,64.1795448 21.4990957,66.961245 23.4327187,68.8764749 C25.4004362,70.8254368 27.8222304,71.9430234 30.408918,72.4582035 C32.1361143,72.802168 33.9012795,72.9919533 35.6566813,72.8628175 C36.5281056,72.7987608 37.2970916,72.5566738 38.1413953,72.3641627 C38.9624528,72.1769329 39.4213338,72.3949985 40.1179464,72.8452701 C43.3539792,74.9373376 46.8334778,75.746736 50.5700799,75.4356517 C53.723666,75.1729507 57.3584495,74.4086987 59.9310344,72.2479746 C62.7879984,69.84823 62.7311226,66.5390835 62.0588411,63.0035235 C62.7711061,63.3565173 64.7416132,63.575094 63.5641132,62.1680594 C63.0976384,61.6107994 62.2162957,61.3840451 61.6177822,61.0562652 C60.9208597,60.6746502 60.2132439,60.181447 59.6720712,59.5589377 C57.4869238,57.0453901 59.6939227,51.9300465 62.4403895,51.0870864 C66.5208811,49.8347421 67.4344587,55.6054753 70.3473686,57.0982029 C72.0221834,57.9564958 73.7741757,56.7833706 75.0290082,55.5855427 C76.709867,53.980886 77.8554422,51.8550865 78.8444926,49.6918069 C79.6591961,47.9103126 80.4173338,46.1037748 81.2476898,44.3311394 C81.6354372,43.5033417 82.9778306,41.1632245 82.3036894,40.2272457 C85.2263628,39.6444311 88.4816125,40.8589547 90.9987164,42.4516859 C92.0390635,43.110142 92.8322255,43.8360622 93.387191,44.9984544 C93.5060568,45.2475263 93.7648651,45.9879274 94.0898476,46.0182522 C94.69487,46.0748129 94.4687615,45.335434 94.4090961,44.9836328" id="Hair" fill="rgb(95, 168, 211)"></path></g></g><g id="bottom" transform="translate(0.000000, 187.000000)"><g id="Bottom/Standing/Baggy-Pants" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><polygon id="Leg" fill="rgb(27, 73, 101)" points="134 0 183.081639 124.226909 216.000898 229.25029 229 229.25029 178.673688 5.090379e-13"></polygon><path d="M124.116628,0 C123.593979,43.6541888 115.971833,102.427468 114.754071,105.148648 C113.942229,106.962768 85.9161573,130.032465 30.6758546,174.357739 L39.6290713,183.938736 C104.807511,145.935376 138.9048,124.399339 141.920937,119.330628 C146.445143,111.72756 161.1744,41.763137 173,0 L124.116628,0 Z" id="Leg" fill="rgb(27, 73, 101)"></path><g id="Accessories/Shoe/Flat-Sneaker" transform="translate(51.500000, 189.000000) rotate(50.000000) translate(-51.500000, -189.000000) translate(21.000000, 169.000000)" fill="#E4E4E4"><path d="M2.67813181,25.4019242 C1.55937727,28.3884109 1,30.6229931 1,32.1056708 C1,33.908957 1.3004142,36.5404001 1.90124261,40 C3.99318117,40 22.7937852,40 58.3030548,40 C59.768738,35.1545073 58.9226607,32.5385816 55.7648228,32.1522232 C52.606985,31.7658647 49.9837155,31.4170139 47.8950143,31.1056708 L21.6799926,19.4188835 C21.1755635,19.1940064 20.584344,19.4206282 20.359467,19.9250573 C20.35562,19.9336867 20.3518954,19.9423702 20.3482945,19.9511052 L18.6632131,24.038695 C15.7398812,25.4026522 13.3643706,26.0846307 11.5366811,26.0846307 C10.0517269,26.0846307 8.00099246,25.4849054 5.38447792,24.2854549 L5.38448339,24.285443 C4.38038273,23.8251478 3.19325534,24.2659892 2.73296014,25.2700899 C2.71312074,25.3133681 2.69483298,25.3573409 2.67813181,25.4019242 Z" id="shoe"></path></g><g id="Accessories/Shoe/Flat-Sneaker" transform="translate(208.000000, 199.000000)" fill="#E4E4E4"><path d="M2.67813181,25.4019242 C1.55937727,28.3884109 1,30.6229931 1,32.1056708 C1,33.908957 1.3004142,36.5404001 1.90124261,40 C3.99318117,40 22.7937852,40 58.3030548,40 C59.768738,35.1545073 58.9226607,32.5385816 55.7648228,32.1522232 C52.606985,31.7658647 49.9837155,31.4170139 47.8950143,31.1056708 L21.6799926,19.4188835 C21.1755635,19.1940064 20.584344,19.4206282 20.359467,19.9250573 C20.35562,19.9336867 20.3518954,19.9423702 20.3482945,19.9511052 L18.6632131,24.038695 C15.7398812,25.4026522 13.3643706,26.0846307 11.5366811,26.0846307 C10.0517269,26.0846307 8.00099246,25.4849054 5.38447792,24.2854549 L5.38448339,24.285443 C4.38038273,23.8251478 3.19325534,24.2659892 2.73296014,25.2700899 C2.71312074,25.3133681 2.69483298,25.3573409 2.67813181,25.4019242 Z" id="shoe"></path></g><polygon id="Pant" fill="#69A1AC" points="167 218.432889 228.804464 211.725327 183 2.84217094e-14 127.644073 2.84217094e-14"></polygon><path d="M43.4599581,158.900479 L84,206.885961 C126.699953,160.249961 151.594137,129.819963 158.682552,115.595966 C165.770967,101.37197 172.143091,62.839981 177.798925,0 L115.478146,0 C112.388642,55.2838742 110.306102,84.2121259 109.230525,86.7847551 C108.154948,89.3573843 86.2314253,113.395959 43.4599581,158.900479 Z" id="Pant" fill="#89C5CC"></path></g></g><g id="torso" transform="translate(22.000000, 82.000000)"><g id="Body/Pointing-Up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M191.456243,2.34082269 L229.360019,-9.03759567 C236.431,-14.5420411 243.100557,-18.5666331 249.36869,-21.1113719 C251.191683,-21.4545034 254.209733,-21.2552209 250.438302,-16.9769837 C246.666871,-12.6987465 242.892301,-8.02906778 243.969107,-6.23518449 C245.045914,-4.44130119 248.969279,-5.79360164 250.104775,-2.95198204 C250.861773,-1.05756897 244.361683,0.299249329 230.604506,1.11847287 L201.133571,18.4625605 L191.456243,2.34082269 Z M188.106855,69.1681252 L220.005126,92.5917238 C228.656594,94.9262021 235.884616,97.8306872 241.689192,101.305179 C243.060333,102.554584 244.717486,105.084837 239.031031,104.647546 C233.344575,104.210255 227.34361,104.006032 226.55899,105.945594 C225.774369,107.885156 229.215504,110.204659 227.629445,112.821636 C226.572072,114.566288 221.576617,110.191639 212.64308,99.6976902 L181.055424,86.5990869 L188.106855,69.1681252 Z" id="Skin" fill="rgb(27, 73, 101)"></path><path d="M126.984936,15.649923 C152.146796,42.4399518 182.83581,59.9216266 224.690767,75.4277614 L215.396057,94.0136202 C172.211363,89.9419212 149.124049,86.6900124 131.024869,59.8586619 C126.482342,53.1245369 118.360034,29.953677 113.494175,17.9210142 L126.984936,15.649923 Z" id="Coat-Back" fill="#2026A2" transform="translate(169.092471, 54.831772) rotate(15.000000) translate(-169.092471, -54.831772) "></path><path d="M90,114 L167,114 C149.558211,60.8053811 140.648283,24.2959016 140.270216,4.47156148 C140.250941,3.46089747 138.384379,1.67996472 137.55857,1.91319372 C131.519523,3.61877223 125.057267,2.98104099 118.1718,0 C99.917485,29.3584068 93.6048263,65.5045499 90,114 Z" id="Shirt" fill="#F2F2F2"></path><path d="M124.742502,0.0473953679 C146.814238,0.228130238 182.624,4.25865631 223.922675,-9 L228,11.3734803 C196.78685,31.4482286 165.18092,46.9990656 137.486251,44.790754 C149.512444,96.3770989 148.957979,138.605966 122.407472,138.605966 C109.728284,138.605966 96.0428359,138.605966 81.3511268,138.605966 C74.8304314,94.783947 91.9680949,34.0236152 107.855955,3.37659428 C108.462665,2.20627687 109.75441,-3.65929509e-13 112.797001,-3.65929509e-13 C115.448059,-3.65929509e-13 119.424647,-3.65929509e-13 124.726763,-3.65929509e-13 C124.73201,0.0157984696 124.737257,0.0315969258 124.742502,0.0473953679 Z" id="Coat-Front" fill="#1F28CF"></path></g></g></svg></div></div></div></div></div></div></div></div></div></div></main>
+        <script>
+    // Init options for es-module-shims: https://github.com/guybedford/es-module-shims#init-options
+    window.esmsInitOptions = {
+        shimMode: true,
+        mapOverrides: true,
+        revokeBlobURLs: true,
+        resolve: function (id, parentUrl, defaultResolve) {
+            // Can be set via installShimResolveHook() in importShim.ts.
+            const resolve = window["esmsResolveHook"]
+            if (resolve) return resolve(id, parentUrl, defaultResolve)
+            return defaultResolve(id, parentUrl)
+        },
+    }
+
+    // A lot of libraries assume `process.env.NODE_ENV` is present in runtime/buildtime, so we are polyfilling it
+    window.process = {
+        ...window.process,
+        env: {
+            ...window.process?.env,
+            NODE_ENV: "production",
+        },
+    }
+</script>
+
+        
+        
+        
+        
+            <script src="./preview-next.D662DWP2.js.download" type="module"></script>
+        
+        
+        
+    
+
+<div id="drag-overlay" style="position: absolute; z-index: 1000000; inset: 0px; display: none;"></div><script type="importmap-shim" id="framer-user-importmap">{
+    "imports": {
+        "@emotion/hash": "https://ga.jspm.io/npm:@emotion/hash@0.9.0/dist/emotion-hash.esm.js",
+        "valtio": "https://ga.jspm.io/npm:valtio@1.2.9/esm/index.js",
+        "@react-three/drei": "https://ga.jspm.io/npm:@react-three/drei@8.3.1/index.js",
+        "@react-three/fiber": "https://ga.jspm.io/npm:@react-three/fiber@7.0.24/dist/react-three-fiber.esm.js",
+        "airtable": "https://ga.jspm.io/npm:airtable@0.11.1/lib/airtable.js",
+        "framer-motion-3d": "https://ga.jspm.io/npm:framer-motion-3d@6.0.0-beta.8/dist/es/index.mjs",
+        "react-confetti": "https://ga.jspm.io/npm:react-confetti@6.0.1/dist/react-confetti.min.js",
+        "style-value-types": "https://ga.jspm.io/npm:style-value-types@5.1.0/dist/es/index.mjs",
+        "three": "https://ga.jspm.io/npm:three@0.136.0/build/three.module.js",
+        "shopify-buy": "https://ga.jspm.io/npm:shopify-buy@2.14.0/index.js",
+        "canvas-confetti": "https://ga.jspm.io/npm:canvas-confetti@1.4.0/src/confetti.js",
+        "zustand": "https://ga.jspm.io/npm:zustand@3.7.1/esm/index.js",
+        "zustand/middleware": "https://ga.jspm.io/npm:zustand@3.7.1/esm/middleware.js",
+        "color-diff": "https://ga.jspm.io/npm:color-diff@1.2.0/lib/index.js",
+        "color-hash": "https://ga.jspm.io/npm:color-hash@2.0.1/dist/color-hash.js",
+        "tinycolor2": "https://ga.jspm.io/npm:tinycolor2@1.4.2/tinycolor.js",
+        "@motionone/dom": "https://ga.jspm.io/npm:@motionone/dom@10.12.0/dist/index.es.js",
+        "@motionone/easing": "https://ga.jspm.io/npm:@motionone/easing@10.13.1/dist/index.es.js",
+        "@motionone/utils": "https://ga.jspm.io/npm:@motionone/utils@10.12.0/dist/index.es.js",
+        "framesync": "https://ga.jspm.io/npm:framesync@6.1.2/dist/es/index.mjs",
+        "motion": "https://ga.jspm.io/npm:motion@10.12.0/dist/main.es.js",
+        "popmotion": "https://ga.jspm.io/npm:popmotion@11.0.3/dist/es/index.mjs",
+        "@vimeo/player": "https://ga.jspm.io/npm:@vimeo/player@2.16.4/dist/player.es.js"
+    },
+    "scopes": {
+        "https://ga.jspm.io/": {
+            "proxy-compare": "https://ga.jspm.io/npm:proxy-compare@2.0.2/dist/index.modern.js",
+            "valtio/vanilla": "https://ga.jspm.io/npm:valtio@1.2.9/esm/vanilla.js",
+            "@babel/runtime/helpers/esm/defineProperty": "https://ga.jspm.io/npm:@babel/runtime@7.16.7/helpers/esm/defineProperty.js",
+            "@babel/runtime/helpers/esm/extends": "https://ga.jspm.io/npm:@babel/runtime@7.16.7/helpers/esm/extends.js",
+            "@chevrotain/utils": "https://ga.jspm.io/npm:@chevrotain/utils@9.1.0/lib/src/api.js",
+            "@react-spring/animated": "https://ga.jspm.io/npm:@react-spring/animated@9.4.1/dist/react-spring-animated.esm.js",
+            "@react-spring/core": "https://ga.jspm.io/npm:@react-spring/core@9.4.1/dist/react-spring-core.esm.js",
+            "@react-spring/rafz": "https://ga.jspm.io/npm:@react-spring/rafz@9.4.1/dist/react-spring-rafz.esm.js",
+            "@react-spring/shared": "https://ga.jspm.io/npm:@react-spring/shared@9.4.1/dist/react-spring-shared.esm.js",
+            "@react-spring/three": "https://ga.jspm.io/npm:@react-spring/three@9.4.1/dist/react-spring-three.esm.js",
+            "@react-spring/types/animated": "https://ga.jspm.io/npm:@react-spring/types@9.4.1/animated.js",
+            "@react-spring/types/interpolation": "https://ga.jspm.io/npm:@react-spring/types@9.4.1/interpolation.js",
+            "@use-gesture/core": "https://ga.jspm.io/npm:@use-gesture/core@10.2.4/dist/use-gesture-core.esm.js",
+            "@use-gesture/core/actions": "https://ga.jspm.io/npm:@use-gesture/core@10.2.4/actions/dist/use-gesture-core-actions.esm.js",
+            "@use-gesture/core/types": "https://ga.jspm.io/npm:@use-gesture/core@10.2.4/types/dist/use-gesture-core-types.esm.js",
+            "@use-gesture/core/utils": "https://ga.jspm.io/npm:@use-gesture/core@10.2.4/utils/dist/use-gesture-core-utils.esm.js",
+            "@use-gesture/react": "https://ga.jspm.io/npm:@use-gesture/react@10.2.4/dist/use-gesture-react.esm.js",
+            "abort-controller": "https://ga.jspm.io/npm:abort-controller@3.0.0/browser.js",
+            "abortcontroller-polyfill/dist/cjs-ponyfill": "https://ga.jspm.io/npm:abortcontroller-polyfill@1.7.3/dist/cjs-ponyfill.js",
+            "bidi-js": "https://ga.jspm.io/npm:bidi-js@1.0.2/dist/bidi.js",
+            "buffer": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.14/nodelibs/browser/buffer.js",
+            "chevrotain": "https://ga.jspm.io/npm:chevrotain@9.1.0/lib_esm/api_esm.mjs",
+            "debounce": "https://ga.jspm.io/npm:debounce@1.2.1/index.js",
+            "detect-gpu": "https://ga.jspm.io/npm:detect-gpu@3.1.30/dist/detect-gpu.esm.js",
+            "fast-deep-equal": "https://ga.jspm.io/npm:fast-deep-equal@3.1.3/index.js",
+            "fflate": "https://ga.jspm.io/npm:fflate@0.6.10/esm/browser.js",
+            "framesync": "https://ga.jspm.io/npm:framesync@6.0.1/dist/es/index.mjs",
+            "hey-listen": "https://ga.jspm.io/npm:hey-listen@1.0.8/dist/index.js",
+            "ktx-parse": "https://ga.jspm.io/npm:ktx-parse@0.2.2/dist/ktx-parse.modern.js",
+            "lodash.omit": "https://ga.jspm.io/npm:lodash.omit@4.5.0/index.js",
+            "lodash.pick": "https://ga.jspm.io/npm:lodash.pick@4.4.0/index.js",
+            "lodash/get": "https://ga.jspm.io/npm:lodash@4.17.21/get.js",
+            "lodash/isArray": "https://ga.jspm.io/npm:lodash@4.17.21/isArray.js",
+            "lodash/isFunction": "https://ga.jspm.io/npm:lodash@4.17.21/isFunction.js",
+            "lodash/isNil": "https://ga.jspm.io/npm:lodash@4.17.21/isNil.js",
+            "lodash/isNumber": "https://ga.jspm.io/npm:lodash@4.17.21/isNumber.js",
+            "lodash/isPlainObject": "https://ga.jspm.io/npm:lodash@4.17.21/isPlainObject.js",
+            "lodash/isString": "https://ga.jspm.io/npm:lodash@4.17.21/isString.js",
+            "lodash/keys": "https://ga.jspm.io/npm:lodash@4.17.21/keys.js",
+            "mmd-parser": "https://ga.jspm.io/npm:mmd-parser@1.0.4/build/mmdparser.js",
+            "node-fetch": "https://ga.jspm.io/npm:node-fetch@2.6.7/browser.js",
+            "object-assign": "https://ga.jspm.io/npm:object-assign@4.1.1/index.js",
+            "opentype.js": "https://ga.jspm.io/npm:opentype.js@1.3.4/dist/opentype.module.js",
+            "popmotion": "https://ga.jspm.io/npm:popmotion@11.0.3/dist/es/index.mjs",
+            "potpack": "https://ga.jspm.io/npm:potpack@1.0.2/index.mjs",
+            "process": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.14/nodelibs/browser/process-production.js",
+            "prop-types": "https://ga.jspm.io/npm:prop-types@15.8.0/index.js",
+            "react-composer": "https://ga.jspm.io/npm:react-composer@5.0.2/es/index.js",
+            "react-merge-refs": "https://ga.jspm.io/npm:react-merge-refs@1.1.0/dist/react-merge-refs.esm.js",
+            "react-reconciler": "https://ga.jspm.io/npm:react-reconciler@0.26.2/index.js",
+            "react-use-measure": "https://ga.jspm.io/npm:react-use-measure@2.1.1/dist/web.js",
+            "regexp-to-ast": "https://ga.jspm.io/npm:regexp-to-ast@0.5.0/lib/regexp-to-ast.js",
+            "scheduler": "https://ga.jspm.io/npm:scheduler@0.20.2/index.js",
+            "style-value-types": "https://ga.jspm.io/npm:style-value-types@5.0.0/dist/es/index.mjs",
+            "three-mesh-bvh": "https://ga.jspm.io/npm:three-mesh-bvh@0.5.3/src/index.js",
+            "three-stdlib": "https://ga.jspm.io/npm:three-stdlib@2.6.4/index.js",
+            "three/examples/js/libs/stats.min": "https://ga.jspm.io/npm:three@0.136.0/examples/js/libs/stats.min.js",
+            "troika-three-text": "https://ga.jspm.io/npm:troika-three-text@0.44.0/dist/troika-three-text.esm.js",
+            "troika-three-utils": "https://ga.jspm.io/npm:troika-three-utils@0.44.0/dist/troika-three-utils.esm.js",
+            "troika-worker-utils": "https://ga.jspm.io/npm:troika-worker-utils@0.44.0/dist/troika-worker-utils.esm.js",
+            "tslib": "https://ga.jspm.io/npm:tslib@2.3.1/tslib.es6.js",
+            "use-asset": "https://ga.jspm.io/npm:use-asset@1.0.4/dist/index.cjs.js",
+            "zstddec": "https://ga.jspm.io/npm:zstddec@0.0.2/dist/zstddec.js",
+            "zustand": "https://ga.jspm.io/npm:zustand@3.6.8/esm/index.js",
+            "@motionone/animation": "https://ga.jspm.io/npm:@motionone/animation@10.12.0/dist/index.es.js",
+            "@motionone/easing": "https://ga.jspm.io/npm:@motionone/easing@10.12.0/dist/index.es.js",
+            "@motionone/generators": "https://ga.jspm.io/npm:@motionone/generators@10.12.0/dist/index.es.js",
+            "@motionone/types": "https://ga.jspm.io/npm:@motionone/types@10.12.0/dist/index.es.js"
+        },
+        "https://ga.jspm.io/npm:framer-motion-3d@6.0.0-beta.8/": {
+            "tslib": "https://ga.jspm.io/npm:tslib@2.3.1/tslib.es6.js"
+        }
+    }
+}</script></body></html>

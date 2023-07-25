@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Appbar from './components/mui/appbar'
+// import Home from './pages/home'
+// import Footer from './pages/footer'
+// import Home2 from './pages/home2'
+// import Home3 from './pages/home3'
+// import Smarthome from './pages/smarthome'
+// import Solar from './pages/solar'
+// import Industrial from './pages/industrial';
+// import Asset from './pages/asset'
+import Digital from './pages/digital'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Appbar/>
+   {/* <Home/> */}
+   {/* <Home2/> */}
+   {/* <Home3/> */}
+   {/* <Smarthome/> */}
+   {/* <Solar/> */}
+   {/* <Industrial/> */}
+   {/* <Asset/> */}
+   <Digital/>
+   {/* <Footer/> */}
+   </>
   );
 }
 
