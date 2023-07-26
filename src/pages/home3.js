@@ -11,15 +11,18 @@ function home3() {
     return (
         <>
             <Box sx={{ backgroundColor: '#0B1829' }}>
-                <Box sx={{ width: '100%', height: '30rem', backgroundColor: '#0B1829', }}>
-
+            <Box sx={{ width: '100%', height: ['46rem', '60rem', '35rem', '46rem', '56rem'], backgroundColor: '#0B1829', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: '0rem' }}>
+                        <Typography sx={{ fontSize: ['8rem', '16rem', '20rem', '25rem','27rem'], fontWeight: 'bold', fontFamily: 'fascinate-inline', color: '#ADE8F4',lineHeight:['8rem','15rem','20rem','25rem'] }}>Smart</Typography>
+                        <Typography sx={{ fontSize: ['1rem', '1.5rem', '1.5rem', '2.5rem','3rem'], color: '#00B4D8', letterSpacing: ['0.5rem', '1rem', '1.5rem', '1.5rem'] }}>Smart Energy Revolution</Typography>
+                    </Box>
                 </Box>
-                <Box sx={{ width: 'auto', height: ['auto', '28rem', '22rem', '35rem'], backgroundColor: '#0B1829', backgroundColor: 'gray', px: ['1rem', '1rem', '2rem', '3rem', '10rem'], py: ['1rem', '1rem', '2rem', '3rem', '10rem'], display: 'flex', flexDirection: 'column', gap: ['1.5rem', '1.5rem', '1.5rem', '2rem', '3rem'] }}>
+                <Box sx={{ width: 'auto', height: ['auto', '28rem', '22rem', 'auto'], backgroundColor: '#0B1829', px: ['1rem', '1rem', '2rem', '3rem', '10rem'], py: ['1rem', '1rem', '2rem', '3rem', '5rem'], display: 'flex', flexDirection: 'column', gap: ['1.5rem', '1.5rem', '1.5rem', '2rem', '3rem'] }}>
                     <Box>
                         <Typography sx={{ fontSize: ['2rem', '2rem', '3rem', '5rem'], color: '#00B4D8', fontFamily: 'fascinate-inline', fontWeight: 'bold' }}>Key Features Unleashed</Typography>
                     </Box>
                     <Box sx={{ width: '100%', display: 'flex', flexDirection: ['column', 'row'], alignItems: 'center', justifyContent: 'center', gap: ['2rem', '2rem', '2rem', '2rem', '4.5rem'] }}>
-                        <Box sx={{ width: ['95%', "30%"], height: ['13rem', '21rem', '14rem', '22rem', '21rem'], backgroundColor: '', display: 'flex', justifyContent: 'space-between', flexDirection: 'column', gap: '0rem' }}>
+                        <Box sx={{ width: ['95%', "30%"], height: ['13rem', '21rem', '14rem', '22rem', '21rem'], display: 'flex', justifyContent: 'space-between', flexDirection: 'column', gap: '0rem' }}>
                             <Box sx={{ display: 'flex', flexDirection: 'column', gap: ['0.5rem', '0.5rem', '0.5rem', '0.5rem', '1rem'] }}>
                                 <Typography sx={{ fontSize: ['1.5rem', '1.5rem', '1.5rem', '2rem'], fontWeight: 'bold', color: '#00B4D8' }}>Real-time Monitoring</Typography>
                                 <Typography sx={{ fontSize: ['1rem', '1rem', '1rem', '1.5rem'], color: '#91E0EE' }}>Gain visibility into energy usage across your organization in real-time.</Typography>
@@ -29,7 +32,7 @@ function home3() {
                                 <Typography sx={{ fontSize: ['1rem', '1rem', '1rem', '1.5rem'], color: '#91E0EE' }}>Receive actionable recommendations to improve energy efficiency.</Typography>
                             </Box>
                         </Box>
-                        <Box sx={{ width: ['95%', "30%"], height: ['13rem', '21rem', '14rem', '22rem', '21rem'], backgroundColor: '', display: 'flex', justifyContent: 'space-between', flexDirection: 'column', gap: '0rem' }}>
+                        <Box sx={{ width: ['95%', "30%"], height: ['13rem', '21rem', '14rem', '22rem', '21rem'], display: 'flex', justifyContent: 'space-between', flexDirection: 'column', gap: '0rem' }}>
                             <Box sx={{ display: 'flex', flexDirection: 'column', gap: ['0.5rem', '0.5rem', '0.5rem', '0.5rem', '1rem'] }}>
                                 <Typography sx={{ fontSize: ['1.5rem', '1.5rem', '1.5rem', '2rem'], fontWeight: 'bold', color: '#00B4D8' }}>Analytics Powerhouse</Typography>
                                 <Typography sx={{ fontSize: ['1rem', '1rem', '1rem', '1.5rem'], color: '#91E0EE' }}>Analyze energy data to identify inefficiencies and optimization opportunities.</Typography>
@@ -39,7 +42,7 @@ function home3() {
                                 <Typography sx={{ fontSize: ['1rem', '1rem', '1rem', '1.5rem'], color: '#91E0EE' }}>Integrate renewable energy sources, such as solar, for a greener energy mix.</Typography>
                             </Box>
                         </Box>
-                        <Box sx={{ width: ['95%', "30%"], height: ['13rem', '21rem', '14rem', '22rem', '21rem'], backgroundColor: '', display: 'flex', justifyContent: 'space-between', flexDirection: 'column', gap: '0rem' }}>
+                        <Box sx={{ width: ['95%', "30%"], height: ['13rem', '21rem', '14rem', '22rem', '21rem'], display: 'flex', justifyContent: 'space-between', flexDirection: 'column', gap: '0rem' }}>
                             <Box sx={{ display: 'flex', flexDirection: 'column', gap: ['0.5rem', '0.5rem', '0.5rem', '0.5rem', '1rem'] }}>
                                 <Typography sx={{ fontSize: ['1.5rem', '1.5rem', '1.5rem', '2rem'], fontWeight: 'bold', color: '#00B4D8' }}>Demand Management</Typography>
                                 <Typography sx={{ fontSize: ['1rem', '1rem', '1rem', '1.5rem'], color: '#91E0EE' }}>Optimize energy demand and balance loads to reduce peak demand charges.</Typography>
@@ -62,12 +65,12 @@ function home3() {
                         </Box>
                     </Box>
                 </Box>
-                <Box sx={{ width: '100%', height: ['auto', 'auto', 'auto', 'auto', '100rem'] }}>
+                <Box sx={{ width: '100%', height: ['auto', 'auto', 'auto', 'auto', 'auto']}}>
                     <Box sx={{ width: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                         <Typography sx={{ width: ['95%', '55%', '60%', '65%', '50%'], fontFamily: 'Fascinate Inline', fontSize: ['2rem', '2rem', '3rem', '5rem'], fontWeight: 'bold', color: '#0096C7', textAlign: 'center' }}>Use Cases</Typography>
                         <Typography sx={{ width: ['94%', '55%', '60%', '65%', '45%'], fontFamily: 'Albert Sans', color: 'white', fontSize: ['1rem', '1rem', '1.5rem', '2rem'], textAlign: 'center' }}>Our state-of-the-art Smart Energy Management solution is versatile and applicable across various industries and sectors. </Typography>
                     </Box>
-                    <Box sx={{ width: '100%' }}>
+                    <Box sx={{ width: '100%'}}>
                         <Box sx={{ width: ['100%', '100%', '100%', '80%'], px: ['0rem', '0rem', '0rem', '8rem', '10rem'], py: ['2rem', '2rem', '3rem', '6rem'], height: 'auto', display: 'flex', flexDirection: ['column', 'row'], flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: '1.5rem' }}>
                             {
                                 home3card.map((item) => (
@@ -149,8 +152,8 @@ function home3() {
                     </Box>
 
                 </Box>
-                <Box sx={{ width: '100%', height: ['20rem', '20rem', '30rem', '30rem', '35rem'], display: 'flex', justifyContent: 'center', backgroundColor: 'gray' }}>
-                    <Box sx={{ width: ['90%', '65%', '90%', '60%', '40%'], height: ['20rem', '20rem', '30rem', '30rem', '35rem'], display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', backgroundColor: 'blue', gap: ['1rem', '1rem', '1.5rem', '2rem'] }}>
+                <Box sx={{ width: '100%', height: ['20rem', '20rem', '30rem', '30rem', '35rem'], display: 'flex', justifyContent: 'center' }}>
+                    <Box sx={{ width: ['90%', '65%', '90%', '60%', '40%'], height: ['20rem', '20rem', '30rem', '30rem', '35rem'], display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: ['1rem', '1rem', '1.5rem', '2rem'] }}>
                         <Typography sx={{ fontSize: ['2.5rem', '3rem', '4rem'], textAlign: 'center', color: '#ADE8F4', fontFamily: 'fascinate-inline', fontWeight: 'bold' }}>Get Started</Typography>
                         <Typography sx={{ fontSize: ['1rem', '1rem', '1.5rem'], textAlign: 'center', color: '#ADE8F4' }}>Take the first step toward superior energy management and sustainability. Collaborate with our expert team to develop and implement a customized Smart Energy Management solution tailored to your organization's unique needs.</Typography>
                         <Button sx={{ backgroundColor: '#CAF0F8', width: 'auto', height: 'auto', fontSize: ['0.5rem', '1rem'], color: '#03045E', ":hover": { backgroundColor: '#34c7e5', color: 'white' } }}>Schedule a Consultation</Button>
@@ -179,7 +182,7 @@ function home3() {
 
 
                     {/* footer */}
-                    <Box sx={{ width: '100%', height: ['10rem', '15rem', '20rem', '20rem', "20rem"], display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: 'center', gap: ['1rem', '1.5rem', '1.5rem', '2rem'], backgroundColor: 'red' }}>
+                    <Box sx={{ width: '100%', height: ['10rem', '15rem', '20rem', '20rem', "20rem"], display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: 'center', gap: ['1rem', '1.5rem', '1.5rem', '2rem'] }}>
                         <Box sx={{ width: '60%', display: "flex", flexDirection: 'row', gap: ['0.5rem', '1rem'], justifyContent: 'center', alignItems: 'center' }}>
                             <Box>
                                 <TwitterIcon sx={{ width: ['1.5rem', '2rem'], height: ['1.5rem', '2rem'], color: '#F3D592' }} />
@@ -195,7 +198,7 @@ function home3() {
                             </Box>
                         </Box>
                         <Box sx={{ width: ['90%', '90%', '60%'], display: "flex", flexDirection: 'column', alignItems: 'center' }}>
-                            <Typography sx={{ fontSize: ['1rem', '1.5rem'], color: '#F3D592' }}>Copyright © 2023 Smart Energy Management. All rights reserved.</Typography>
+                            <Typography sx={{ fontSize: ['1rem', '1.5rem'], color: '#F3D592' ,textAlign:'center'}}>Copyright © 2023 Smart Energy Management. All rights reserved.</Typography>
 
                         </Box>
                     </Box>

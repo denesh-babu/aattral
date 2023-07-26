@@ -2,37 +2,45 @@ export const homedata = [
     {
         title: 'Smart Energy Management',
         subtitle: `Effectively control and enhance energy usage with Aattral's Intelligent Energy Management system. Observe energy consumption in real-time, pinpoint inadequacies, and employ smart tactics to lower expenses and diminish ecological effects. With our solution, you can command your energy utilization and promote sustainable methods.`,
-        img: 'url(/sec-img1.webp)'
+        img: 'url(/sec-img1.webp)',
+        link:'/Smart-Energy-Management'
+        
     },
     {
         title: 'Smart Preventive Maintenance ',
         subtitle: `Extend the longevity of your machinery and prevent unforeseen malfunctions by using Aattral's Intelligent Predictive Maintenance System. Utilizing sophisticated algorithms and live data analysis, our platform empowers you to proactively identify and resolve potential issues, guaranteeing peak performance, minimized downtime, and heightened efficiency.`,
-        img: 'url(/sec-img2.webp)'
+        img: 'url(/sec-img2.webp)',
+        link:'Smart-Preventive-Maintenance'
     },
     {
         title: 'Smart Home Automation',
         subtitle: `Discover the pinnacle of luxury, ease, and safety with Aattral's Intelligent Home Automation system. Our technology grants you the power to regulate and automate illumination, temperature, security features, and beyond via a user-friendly mobile application or vocal instructions. Relish in a tailored, integrated living space that conforms to your daily habits and elevates your standard of living.`,
-        img: 'url(/sec-img3.webp)'
+        img: 'url(/sec-img3.webp)',
+        link:'Smart-Home-Automation'
     },
     {
         title: 'Smart Asset Management',
         subtitle: `Simplify asset monitoring and control using Aattral's Intelligent Asset Management system. By employing IoT advancements and asset tracking devices, you can supervise the position, state, and use of your important assets. This allows you to fine-tune maintenance plans, reduce losses, and enhance overall asset productivity.`,
-        img: 'url(/sec-img4.webp)'
+        img: 'url(/sec-img4.webp)',
+        link:'Smart-Asset-Management'
     },
     {
         title: 'Smart Industrial Monitoring',
         subtitle: `Achieve real-time transparency and data analysis for your manufacturing processes and machinery using Aattral's Intelligent Industrial Monitoring system. Keep track of crucial variables, identify irregularities, and enhance processes to boost efficiency, minimize outages, and guarantee adherence to regulations. Our system enables you to unleash the full capabilities of your industrial activities.`,
-        img: 'url(/sec-img5.webp)'
+        img: 'url(/sec-img5.webp)',
+        link:'Smart-Industrial-Monitoring'
     },
     {
         title: 'Digital Manufacturing Excellence',
         subtitle: `Attain superiority in production through Aattral's Digital Manufacturing system. Simplify manufacturing procedures, improve quality assurance, and maximize supply chain administration utilizing live data analysis and smart findings. Surpass competitors, boost effectiveness, and offer exceptional products using our state-of-the-art solution.`,
-        img: 'url(/sec-img6.webp)'
+        img: 'url(/sec-img6.webp)',
+        link:'Digital-Manufacturing-Excellence'
     },
     {
         title: 'Solar Monitoring System',
         subtitle: `Enhance the performance of your solar setup using Aattral's Solar Monitoring System. Monitor power generation, pinpoint possible problems, and guarantee the utmost effectiveness of your solar panels. Gain command of your renewable power resources and partake in fostering a cleaner, eco-friendly future.`,
-        img: 'url(/sec-img7.webp)'
+        img: 'url(/sec-img7.webp)',
+        link:'Solar-Monitoring-System'
     },
 ]
 
@@ -196,6 +204,32 @@ export const assetfooterdata = [
         con1: 'Contact',
         con2: 'FAQ',
         con3: 'Resources',
+    },
+
+]
+
+
+
+
+
+export const digitalfooterdata = [
+    {
+        title: 'Company',
+        con1: 'About',
+        con2: 'Careers',
+        con3: 'Blog',
+    },
+    {
+        title: 'Support',
+        con1: 'FAQ',
+        con2: 'Contact',
+        con3: 'Documentation',
+    },
+    {
+        title: 'Legal',
+        con1: 'Privacy',
+        con2: 'Terms',
+        con3: 'Cookies',
     },
 
 ]

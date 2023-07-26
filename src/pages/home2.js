@@ -22,7 +22,7 @@ function home2() {
                         <Typography sx={{ fontSize: ['1rem', '1.5rem', '1.5rem', '1.5rem', '2rem'], color: 'gray' }}>Welcome to the Smart Predictive Maintenance System! Our cutting-edge solution is designed to revolutionize your maintenance practices, maximize equipment lifespan, and minimize downtime. Experience the future of maintenance management.</Typography>
                     </Box>
                 </Box>
-                <Box sx={{ width: '100%', height: ['auto', 'auto', 'auto', '75rem'],backgroundColor: '#0B1829', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: ['2rem', '1rem', '2rem'], flexWrap: 'wrap' }}>
+                <Box sx={{ width: '100%', height: ['auto', 'auto', 'auto', 'auto'],backgroundColor: '#0B1829', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: ['2rem', '1rem', '2rem'], flexWrap: 'wrap',py:['2rem']}}>
                     <Box sx={{ width: ['80%', '85%', '45%', '50%'], height: 'auto', backgroundColor: '#0f253e', borderRadius: ['1rem', "2rem"], display: 'flex', flexDirection: 'column', alignItems: 'center', p: ['1.5rem', '2rem', '1.5rem', '2rem'], gap: ['1rem', '2rem', '1.5rem', "2rem"] }}>
                         <Box sx={{ width: '100%' }}>
                             <Typography sx={{ color: 'white', fontSize: '1.5rem' }}>Monitoring</Typography>
@@ -90,8 +90,8 @@ function home2() {
 
                   </Box>
                 </Box>
-                <Box sx={{width:'100%',height:['auto','auto','30rem','35rem'],display:'flex',flexDirection:['column','column','row'],justifyContent:'center',alignItems:'center',gap:['1rem','1rem','3rem']}}>
-                <Box sx={{width:['90%','90%','35%'],height:['20rem','30rem','25rem','30rem'],backgroundImage:'url(/home2-sec2.webp)',backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat:'no-repeat',borderRadius:'1.5rem'}}>
+                <Box sx={{width:'100%',height:['auto','52rem','30rem','35rem'],display:'flex',flexDirection:['column','column','row'],justifyContent:'center',alignItems:'center',gap:['1rem','1rem','3rem']}}>
+                 <Box sx={{width:['90%','90%','35%'],height:['20rem','30rem','25rem','30rem'],backgroundImage:'url(/home2-sec2.webp)',backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat:'no-repeat',borderRadius:'1.5rem'}}>
 
                  </Box>
                   <Box sx={{width:['90%','90%','35%'],display:'flex',flexDirection:'column',gap:['0.5rem','1rem']}}>
@@ -110,10 +110,10 @@ function home2() {
                     <Typography sx={{fontSize:"1rem",fontFamily:'libre baskerville',fontWeight:'bold',color:'white'}}>HealthPlus</Typography>
                   </Box>
                 </Box>
-                <Box sx={{width:"100%",height:['20rem','23rem','25rem','23rem','30rem'],display:'flex',justifyContent:'center',alignItems:'center',backgroundColor:'gray'}}>
+                <Box sx={{width:"100%",height:['20rem','23rem','25rem','23rem','30rem'],display:'flex',justifyContent:'center',alignItems:'center', backgroundColor: '#050c14'}}>
                     <Box sx={{width:['90%','90%','80%','80%','40%'],height:['20rem','17rem','20rem','20rem','25rem'],display:'flex',flexDirection:'column',alignItems:'center',gap:['1rem','1rem','1rem','1.5rem','2rem']}}>
-                       <Typography sx={{fontSize:['2rem','3rem',"4rem"],fontFamily:'limelight'}}>Let's Talk</Typography>
-                       <Typography sx={{fontSize:['1rem','1.5rem','1.5rem'],fontFamily:'libre baskerville',width:['90%','90%','70%'],textAlign:'center'}}>Ready to explore how our Smart Predictive Maintenance System can elevate your organization's maintenance practices? Get in touch with our experts now and schedule a consultation.</Typography>
+                       <Typography sx={{fontSize:['2rem','3rem',"4rem"],fontFamily:'limelight',color:'white'}}>Let's Talk</Typography>
+                       <Typography sx={{fontSize:['1rem','1.5rem','1.5rem'],fontFamily:'libre baskerville',width:['90%','90%','70%'],textAlign:'center',color:'lightgray'}}>Ready to explore how our Smart Predictive Maintenance System can elevate your organization's maintenance practices? Get in touch with our experts now and schedule a consultation.</Typography>
                        <Box sx={{display:'flex',flexDirection:['column','row','row'],gap:'1rem'}}>
                         <Button sx={{backgroundColor:'#202C39',color:'white',':hover':{backgroundColor:'#374c62'}}}>Contact Us</Button>
                         <Button sx={{backgroundColor:'#000101',color:'#F3D592',':hover':{backgroundColor:'#262626'}}}>Schedule Consultation</Button>

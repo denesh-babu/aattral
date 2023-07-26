@@ -66,7 +66,7 @@ function home() {
                                             <Typography sx={{ width: ['100%', '100%', '100%'], fontSize: ['1.5rem', '3rem', '1.5rem', '2rem', '4rem'], color: '#5389E0', fontWeight: 'bold', lineHeight: ['2rem', '4rem', '3rem', '3rem', '4.5rem'] }}>{item.title}</Typography>
                                             <Typography sx={{ fontSize: ['1rem', '1.5rem', '1rem', '1.5rem', '2rem'], color: 'gray' }}>{item.subtitle}</Typography>
                                             <Box sx={{ display: 'flex', gap: '1rem' }}>
-                                                <Button sx={{ border: '1px solid #6897E4', backgroundColor: '#6897E4', color: 'white', fontSize: ['12px', '16px', '12px', '12px', '16px'], width: ['auto'], height: ['auto'], ":hover": { backgroundColor: '#1f55ad', border: '1px solid #1f55ad' } }}>Get Started</Button>
+                                                <Button href={item.link} sx={{ border: '1px solid #6897E4', backgroundColor: '#6897E4', color: 'white', fontSize: ['12px', '16px', '12px', '12px', '16px'], width: ['auto'], height: ['auto'], ":hover": { backgroundColor: '#1f55ad', border: '1px solid #1f55ad' } }}>Get Started</Button>
                                                 <Button sx={{ border: '1px solid #262626', backgroundColor: '#262626', color: 'white', fontSize: ['12px', '16px', '12px', '12px', '16px'], width: ['auto'], height: ['auto'], ":hover": { border: '1px solid #fff' } }}>Learn More</Button>
                                             </Box>
                                         </Box>
@@ -82,7 +82,7 @@ function home() {
                                         <Typography sx={{ width: ['100%', '100%', '100%'], fontSize: ['1.5rem', '3rem', '1.5rem', '2rem', '4rem'], color: '#5389E0', fontWeight: 'bold', lineHeight: ['2rem', '4rem', '3rem', '3rem', '4.5rem'] }}>{item.title}</Typography>
                                         <Typography sx={{ fontSize: ['1rem', '1.5rem', '1rem', '1.5rem', '2rem'], color: 'gray' }}>{item.subtitle}</Typography>
                                         <Box sx={{ display: 'flex', gap: '1rem' }}>
-                                            <Button sx={{ border: '1px solid #6897E4', backgroundColor: '#6897E4', color: 'white', fontSize: ['12px', '16px', '12px', '12px', '16px'], width: ['auto'], height: ['auto'], ":hover": { backgroundColor: '#1f55ad', border: '1px solid #1f55ad' } }}>Get Started</Button>
+                                            <Button href={item.link} sx={{ border: '1px solid #6897E4', backgroundColor: '#6897E4', color: 'white', fontSize: ['12px', '16px', '12px', '12px', '16px'], width: ['auto'], height: ['auto'], ":hover": { backgroundColor: '#1f55ad', border: '1px solid #1f55ad' } }}>Get Started</Button>
                                             <Button sx={{ border: '1px solid #262626', backgroundColor: '#262626', color: 'white', fontSize: ['12px', '16px', '12px', '12px', '16px'], width: ['auto'], height: ['auto'], ":hover": { border: '1px solid #fff' } }}>Learn More</Button>
                                         </Box>
                                     </Box>
