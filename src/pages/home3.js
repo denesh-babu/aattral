@@ -11,10 +11,10 @@ function home3() {
     return (
         <>
             <Box sx={{ backgroundColor: '#0B1829' }}>
-            <Box sx={{ width: '100%', height: ['46rem', '60rem', '35rem', '46rem', '56rem'], backgroundColor: '#0B1829', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <Box sx={{ width: '100%', height: ['46rem', '60rem', '35rem', '46rem', '56rem'], backgroundColor: '#0B1829', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: '0rem' }}>
-                        <Typography sx={{ fontSize: ['8rem', '16rem', '20rem', '25rem','27rem'], fontWeight: 'bold', fontFamily: 'fascinate-inline', color: '#ADE8F4',lineHeight:['8rem','15rem','20rem','25rem'] }}>Smart</Typography>
-                        <Typography sx={{ fontSize: ['1rem', '1.5rem', '1.5rem', '2.5rem','3rem'], color: '#00B4D8', letterSpacing: ['0.5rem', '1rem', '1.5rem', '1.5rem'] }}>Smart Energy Revolution</Typography>
+                        <Typography sx={{ fontSize: ['8rem', '16rem', '20rem', '25rem', '27rem'], fontWeight: 'bold', fontFamily: 'fascinate-inline', color: '#ADE8F4', lineHeight: ['8rem', '15rem', '20rem', '25rem'] }}>Smart</Typography>
+                        <Typography sx={{ fontSize: ['1rem', '1.5rem', '1.5rem', '2.5rem', '3rem'], color: '#00B4D8', letterSpacing: ['0.5rem', '1rem', '1.5rem', '1.5rem'] }}>Smart Energy Revolution</Typography>
                     </Box>
                 </Box>
                 <Box sx={{ width: 'auto', height: ['auto', '28rem', '22rem', 'auto'], backgroundColor: '#0B1829', px: ['1rem', '1rem', '2rem', '3rem', '10rem'], py: ['1rem', '1rem', '2rem', '3rem', '5rem'], display: 'flex', flexDirection: 'column', gap: ['1.5rem', '1.5rem', '1.5rem', '2rem', '3rem'] }}>
@@ -65,12 +65,12 @@ function home3() {
                         </Box>
                     </Box>
                 </Box>
-                <Box sx={{ width: '100%', height: ['auto', 'auto', 'auto', 'auto', 'auto']}}>
+                <Box sx={{ width: '100%', height: ['auto', 'auto', 'auto', 'auto', 'auto'] }}>
                     <Box sx={{ width: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                         <Typography sx={{ width: ['95%', '55%', '60%', '65%', '50%'], fontFamily: 'Fascinate Inline', fontSize: ['2rem', '2rem', '3rem', '5rem'], fontWeight: 'bold', color: '#0096C7', textAlign: 'center' }}>Use Cases</Typography>
                         <Typography sx={{ width: ['94%', '55%', '60%', '65%', '45%'], fontFamily: 'Albert Sans', color: 'white', fontSize: ['1rem', '1rem', '1.5rem', '2rem'], textAlign: 'center' }}>Our state-of-the-art Smart Energy Management solution is versatile and applicable across various industries and sectors. </Typography>
                     </Box>
-                    <Box sx={{ width: '100%'}}>
+                    <Box sx={{ width: '100%' }}>
                         <Box sx={{ width: ['100%', '100%', '100%', '80%'], px: ['0rem', '0rem', '0rem', '8rem', '10rem'], py: ['2rem', '2rem', '3rem', '6rem'], height: 'auto', display: 'flex', flexDirection: ['column', 'row'], flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: '1.5rem' }}>
                             {
                                 home3card.map((item) => (
@@ -198,7 +198,7 @@ function home3() {
                             </Box>
                         </Box>
                         <Box sx={{ width: ['90%', '90%', '60%'], display: "flex", flexDirection: 'column', alignItems: 'center' }}>
-                            <Typography sx={{ fontSize: ['1rem', '1.5rem'], color: '#F3D592' ,textAlign:'center'}}>Copyright © 2023 Smart Energy Management. All rights reserved.</Typography>
+                            <Typography sx={{ fontSize: ['1rem', '1.5rem'], color: '#F3D592', textAlign: 'center' }}>Copyright © 2023 Smart Energy Management. All rights reserved.</Typography>
 
                         </Box>
                     </Box>

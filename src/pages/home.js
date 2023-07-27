@@ -6,6 +6,7 @@ import Form from '../components/mui/form'
 import Accordion from '../components/mui/list'
 import Footer from './footer'
 
+
 function home() {
     return (
         <>
@@ -22,6 +23,7 @@ function home() {
                         <Button sx={{ border: '1px solid #262626', backgroundColor: '#262626', color: 'white', fontSize: ['12px', '16px', '12px', '12px', '16px'], width: ['auto'], height: ['auto'], ":hover": { border: '1px solid #fff' } }}>Learn More</Button>
                     </Box>
                 </Box>
+              
                 <Box sx={{ width: '100%', height: ['42rem', '60rem', '50rem', '60rem'], display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: '0rem' }}>
                     <Box sx={{ py: ['1rem', '1rem', '1rem', '2rem'], display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                         <Typography sx={{ fontSize: ['2rem', '3rem', '3rem', '4rem'], fontWeight: 'bold', color: '#5389E0' }}>About Us</Typography>
